@@ -1,5 +1,5 @@
 {
-  "name": "new-logger",
+  "name": "@red-peach-cake/new-logger",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.iife.js",
