@@ -1,6 +1,6 @@
 {
   "name": "@red-peach-cake/new-logger",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.iife.js",
   "jsdelivr": "dist/index.iife.js",
