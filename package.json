@@ -1,0 +1,33 @@
+{
+  "name": "new-logger",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.iife.js",
+  "jsdelivr": "dist/index.iife.js",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flab-olaf/new-logger.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && changeset publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@11.17.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^1.0.0",
+    "@changesets/cli": "^3.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}
